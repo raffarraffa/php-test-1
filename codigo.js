@@ -6,7 +6,7 @@ request.onload = function () {
 
     const data = JSON.parse(this.response);
     
-    const contenedor = document.getElementById('contenedor');
+    const contenedor = document.getElementById('demo');
     contenedor.setAttribute('class', 'card-columns');
     
     data.forEach((pelicula) => {
